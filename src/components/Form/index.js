@@ -20,13 +20,13 @@ export default function Form() {
     function resultado(IMC) {
         if (IMC < 18.5) {
             setMensagemResultado("Peso Baixo")
-        } else if (IMC >= 18.5 && IMC < 24.9) {
+        } else if (IMC >= 18.5 && IMC < 25) {
             setMensagemResultado("Peso Normal")
-        } else if (IMC >= 24.9 && IMC < 29.9) {
+        } else if (IMC >= 25 && IMC < 30) {
             setMensagemResultado("Sobrepeso")
-        } else if (IMC >= 29.9 && IMC < 34.9) {
+        } else if (IMC >= 30 && IMC < 35) {
             setMensagemResultado("Obesidade Grau Ⅰ")
-        } else if (IMC >= 34.9 && IMC < 39.9) {
+        } else if (IMC >= 35 && IMC < 40) {
             setMensagemResultado("Obesidade Severa Grau Ⅱ") 
         } else {
             setMensagemResultado("Obesidade Mórbida Grau Ⅲ")
